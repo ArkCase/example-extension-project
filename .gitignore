@@ -1,0 +1,9 @@
+**/*.sw?
+*.sw?
+**/.sw?
+.sw?
+target
+.flattened-pom.xml
+**/.project
+**/.classpath
+**/.settings
