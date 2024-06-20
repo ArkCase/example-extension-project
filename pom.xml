@@ -15,7 +15,7 @@
     </organization>
 
     <properties>
-        <arkcase.version>2023.02.01</arkcase.version>
+        <arkcase.version>2023.02.03</arkcase.version>
 
         <!-- for CI/CD -->
         <revision>1.0.0-SNAPSHOT</revision>

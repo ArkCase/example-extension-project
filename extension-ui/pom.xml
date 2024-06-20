@@ -177,7 +177,7 @@
                 <dependency>
                     <groupId>com.armedia.acm.acm-standard-applications</groupId>
                     <artifactId>ui-dev-tools</artifactId>
-                    <version>${acm.version}</version>
+                    <version>${arkcase.version}</version>
                 </dependency>
             </dependencies>
             <build>
