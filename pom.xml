@@ -15,7 +15,7 @@
     </organization>
 
     <properties>
-        <arkcase.version>2023.02.04</arkcase.version>
+        <arkcase.version>2023.02.04-SNAPSHOT</arkcase.version>
         <arkcase.groupId>com.armedia.acm.acm-standard-applications</arkcase.groupId>
         <compile.mode>production</compile.mode>
         <angular-build.dir>${project.build.directory}/npm-build</angular-build.dir>
