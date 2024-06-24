@@ -59,7 +59,7 @@
                                     <artifactId>acm-base</artifactId>
                                 </overlay>
                                 <overlay>
-                                    <groupId>com.example</groupId>
+                                    <groupId>${project.groupId}</groupId>
                                     <artifactId>example-customer-extension-ui</artifactId>
                                     <excludes>
                                         <exclude>WEB-INF/lib/*</exclude>
