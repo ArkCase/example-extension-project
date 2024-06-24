@@ -15,7 +15,11 @@
     </organization>
 
     <properties>
-        <arkcase.version>2023.02.03</arkcase.version>
+        <arkcase.version>2023.02.04</arkcase.version>
+        <arkcase.groupId>com.armedia.acm.acm-standard-applications</arkcase.groupId>
+        <compile.mode>production</compile.mode>
+        <angular-build.dir>${project.build.directory}/npm-build</angular-build.dir>
+        <angular-src.dir>${project.basedir}/src/main/angular</angular-src.dir>
 
         <!-- for CI/CD -->
         <revision>1.0.0-SNAPSHOT</revision>
@@ -41,7 +45,6 @@
         <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
         <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
         <maven-dependency-plugin.version>3.6.1</maven-dependency-plugin.version>
-        <lombok.version>1.18.28</lombok.version>
         <lombok.version>1.18.28</lombok.version>
         <spring.version>5.3.2</spring.version>
         <easymock.version>4.1</easymock.version>
@@ -113,6 +116,20 @@
     -->
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>${arkcase.groupId}</groupId>
+                <artifactId>acm-base</artifactId>
+                <version>${arkcase.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>${arkcase.groupId}</groupId>
+                <artifactId>acm-base-ui</artifactId>
+                <version>${arkcase.version}</version>
+                <type>jar</type>
+                <classifier>source</classifier>
+            </dependency>
             <!-- example arkcase dependencies -->
             <dependency>
                 <groupId>com.armedia.acm.acm-services</groupId>

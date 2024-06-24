@@ -32,7 +32,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.armedia.acm.acm-standard-applications</groupId>
+            <groupId>${arkcase.groupId}</groupId>
             <artifactId>acm-base</artifactId>
             <type>war</type>
             <scope>runtime</scope>
@@ -55,7 +55,7 @@
                         <configuration>
                             <overlays>
                                 <overlay>
-                                    <groupId>com.armedia.acm.acm-standard-applications</groupId>
+                                    <groupId>${arkcase.groupId}</groupId>
                                     <artifactId>acm-base</artifactId>
                                 </overlay>
                                 <overlay>
