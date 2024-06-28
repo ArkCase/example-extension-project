@@ -15,6 +15,16 @@
     <name>ArkCase Configuration</name>
     <description>ArkCase Configuration for an Example Customer</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.armedia.arkcase</groupId>
+            <!--TODO: core/foia-->
+            <artifactId>arkcase-config-core</artifactId>
+            <type>zip</type>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
