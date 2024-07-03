@@ -166,6 +166,7 @@
                                 <include>application.js</include>
                                 <include>config.js</include>
                                 <include>home.html</include>
+                                <include>loader.gif</include>
                                 <include>assets/**</include>
                                 <include>branding/**</include>
                                 <include>directives/**</include>

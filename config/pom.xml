@@ -77,6 +77,8 @@
                                 </goals>
                                 <configuration>
                                     <target>
+                                        <delete dir="${acm-config.location.config}" failonerror="false" />
+                                        <mkdir dir="${acm-config.location.config}" />
                                         <unzip
                                                 src="${project.basedir}/target/${project.artifactId}-${project.version}.zip"
                                                 dest="${acm-config.location.config}"

@@ -119,6 +119,8 @@
                                 </goals>
                                 <configuration>
                                     <target>
+                                        <delete dir="${acm-config.location.arkcase}" failonerror="false" />
+                                        <mkdir dir="${acm-config.location.arkcase}" />
                                         <unzip
                                                 src="${project.basedir}/target/${project.artifactId}-${project.version}.war"
                                                 dest="${acm-config.location.arkcase}"
