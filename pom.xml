@@ -334,6 +334,12 @@
     </modules>
 
     <profiles>
+        <!-- This profile is used to unzip fully deployable ArkCase WAR (ArkCase+Extension) on given path
+        including complete ZIP (ArkCase+extension) configuration.
+        Required dest structure
+        For ArkCase: ${destination}/arkcase
+        For config: ${destination}/config
+        -->
         <profile>
             <id>local-install</id>
             <activation>
