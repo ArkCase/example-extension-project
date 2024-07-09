@@ -262,6 +262,18 @@
                                 <timezone>UTC</timezone>
                             </configuration>
                         </execution>
+                        <execution>
+                            <id>create-buildDate</id>
+                            <phase>generate-sources</phase>
+                            <goals>
+                                <goal>create-timestamp</goal>
+                            </goals>
+                            <configuration>
+                                <timestampPropertyName>buildDate</timestampPropertyName>
+                                <timestampFormat>MMMM dd, yyyy</timestampFormat>
+                                <timezone>UTC</timezone>
+                            </configuration>
+                        </execution>
                     </executions>
                 </plugin>
 

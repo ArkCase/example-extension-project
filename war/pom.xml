@@ -80,6 +80,9 @@
                                     <GroupId>${project.groupId}</GroupId>
                                     <ArtifactId>${project.artifactId}</ArtifactId>
                                     <Version>${project.version}</Version>
+                                    <Implementation-Version>${arkcase.version}</Implementation-Version>
+                                    <extensionVersion>${project.version}</extensionVersion>
+                                    <extensionModifiedTime>${buildDate}</extensionModifiedTime>
                                 </manifestEntries>
                             </archive>
                         </configuration>
