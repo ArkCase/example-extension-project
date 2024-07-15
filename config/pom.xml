@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>com.armedia.arkcase</groupId>
-            <!--TODO: core/foia-->
+            <!--TODO: core/foia/privacy-->
             <artifactId>arkcase-config-core</artifactId>
             <type>zip</type>
             <scope>compile</scope>

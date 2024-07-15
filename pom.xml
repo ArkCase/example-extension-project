@@ -76,7 +76,7 @@
         <repository>
             <id>arkcase.snapshot</id>
             <name>ArkCase Snapshots</name>
-            <url>https://project.armedia.com/repository/arkcase.snapshot/</url>
+            <url>https://nexus.armedia.com/repository/arkcase.snapshot/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -84,7 +84,7 @@
         <repository>
             <id>arkcase.release</id>
             <name>ArkCase Releases</name>
-            <url>https://project.armedia.com/repository/arkcase.release/</url>
+            <url>https://nexus.armedia.com/repository/arkcase.release/</url>
         </repository>
     </repositories>
 
