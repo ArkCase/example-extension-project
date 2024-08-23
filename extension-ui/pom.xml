@@ -190,9 +190,6 @@
                             <SCM-Branch>${scmBranch}</SCM-Branch>
                             <SCM-Revision>${commitHash}</SCM-Revision>
                             <SCM-Build-Time>${buildTimestamp}</SCM-Build-Time>
-                            <GroupId>${project.groupId}</GroupId>
-                            <ArtifactId>${project.artifactId}</ArtifactId>
-                            <Version>${project.version}</Version>
                         </manifestEntries>
                     </archive>
                 </configuration>
